@@ -2,10 +2,10 @@ Source: qbit-pod-navigator
 Section: perl
 Priority: extra
 Maintainer: Sergei Svistunov <sergei-svistunov@yandex.ru>
-Build-Depends: debhelper (>= 8.0.0), perl, libqbit-perl
+Build-Depends: debhelper (>= 8.0.0), perl, libqbit-perl, libqbit-webinterface-controller-pod-perl, libqbit-webinterface-ownserver-perl, libqbit-application-perl
 Standards-Version: 3.9.4
 
 Package: qbit-pod-navigator
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libqbit-perl
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libqbit-perl, libqbit-webinterface-controller-pod-perl, libqbit-webinterface-ownserver-perl, libqbit-application-perl
 Description: Simple HTTP server for view POD.
