@@ -1,3 +1,9 @@
+qbit-pod-navigator (0.002) saucy; urgency=low
+
+  * Fixed depends
+
+ -- Sergei Svistunov <sergei-svistunov@yandex.ru>  Mon, 20 Jan 2014 12:16:41 +0400
+
 qbit-pod-navigator (0.001) saucy; urgency=low
 
   * Initial commit
