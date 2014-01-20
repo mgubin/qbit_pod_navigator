@@ -35,13 +35,15 @@ qbit_pod_navigator [options]
 
 =over 15
 
-=item B<-p, --port>
+=item B<--port>
 
 WebServer port. Listen on 0.0.0.0.
 
 =item B<--path>
 
 Directories with perl modules. Use several times if need.
+
+Default shows from all @INC directories.
 
 =item B<--help>
 
