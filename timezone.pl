@@ -1,9 +1,6 @@
 #!/usr/bin/perl
 use strict;
 use warnings;
-use Time::Piece;
-use Time::TZOffset qw/tzoffset/;
-use Benchmark; 
 
 use Time::Piece;
 use Time::TZOffset qw/tzoffset/;
